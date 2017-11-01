@@ -1,9 +1,9 @@
 #ifndef SendIR_h
-#define SENDIR_h
+#define SendIR_h
 
 #include <IRremoteESP8266.h>
 #include <IRsend.h>
-#include "Arduino.h"
+#include <Arduino.h>
 
 class SendIR {
 public:

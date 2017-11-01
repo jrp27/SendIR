@@ -1,6 +1,6 @@
 #include <IRremoteESP8266.h>
 #include <IRsend.h>
-#include "Arduino.h"
+#include <Arduino.h>
 #include "SendIR.h"
 
 SendIR::SendIR() {
