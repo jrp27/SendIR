@@ -23,8 +23,6 @@ public:
 	void send8();
 	void send9();
 	void send0();
-private:
-	IRsend irsend;
-}
+};
 
 #endif
