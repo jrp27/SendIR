@@ -14,4 +14,4 @@ To use this library, you must:
     3. Rename the extracted folder to "SendIR"
     4. Move this folder to your Arduino libraries directory (under windows: C:\Users\YOURNAME\Documents\Arduino\libraries)
     5. Restart your Arduino ide
-    6. Check out the examples
+    6. Optionally, check out the examples
