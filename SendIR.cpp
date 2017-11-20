@@ -30,15 +30,15 @@ void SendIR::sendChannelDown() {
 void SendIR::sendVolumeUp() {
 	IRsend irsend(4);
 	irsend.begin();
-	irsend.sendSAMSUNG(0xE0E0E01F, 32, 2);
-	delay(40);
+	irsend.sendSAMSUNG(0xE0E0E01F, 32, 1);
+	delay(100);
 }
 
 void SendIR::sendVolumeDown() {
 	IRsend irsend(4);
 	irsend.begin();
-	irsend.sendSAMSUNG(0xE0E0D02F, 32, 2);
-	delay(40);
+	irsend.sendSAMSUNG(0xE0E0D02F, 32, 1);
+	delay(100);
 }
 
 void SendIR::send1() {
