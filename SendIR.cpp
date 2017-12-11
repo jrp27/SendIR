@@ -3,6 +3,12 @@
 #include <Arduino.h>
 #include "SendIR.h"
 
+// to update this library, the line in each function that looks like irsend.sendSAMSUNG(...) should be updated
+// the first parameter is the code (found when scanning codes from the remote), the second parameter is the
+// number of bits of the code (also found when scanning codes from the remote), and the third parameter is
+// the number of times the signal should be repeated. For example, if the 3rd parameter is 2, the signal will be
+// sent 3 times because one original time and 2 repeats.
+
 SendIR::SendIR() {
 }
 
